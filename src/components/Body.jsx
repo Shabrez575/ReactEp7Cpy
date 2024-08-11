@@ -1,6 +1,7 @@
 import RestaurantCard from "./RestaurantCard";
 import { useEffect, useState } from "react";
 import Shimmer from "./Shimmer";
+import {Link} from "react-router-dom";
 
 //We will get Error If we do this: Warning: Invalid hook call. Hooks can only be called inside of the body of a function component.
 // const [searchText, setSearchText] = useState("");
@@ -73,9 +74,12 @@ const Body = () => {
           Top Rating Restaurant
         </button>
       </div>
+      {/* data.cards[2].card.card.info */}
       <div className="res-Container">
         {filteredRestaurant.map((restaurant) => (
-          <RestaurantCard key={restaurant.info.id} resData={restaurant} />
+      <Link key={restaurant.info.id} to={"/restaurants/"+restaurant.info.id}>
+          <RestaurantCard resData={restaurant} />
+      </Link>
         ))}
       </div>
     </div>
