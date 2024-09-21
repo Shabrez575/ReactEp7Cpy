@@ -1,6 +1,45 @@
 Learning:- 
 We studied Create Browser Router -> How to create basic route -> How useEffect use with or Without dependency -> We cannot call useState inside If else, for loop, inside my functions.
+
 ->We create routing configuration -> How we createBrowserRouter -> Then we learn how we can write configuratation to develop path for different element -> Then we saw how we can add error component.
+
+What is RouterProvider?
+The RouterProvider is like the main hub of the React Router, where all the routing processes and settings come together. It acts as a gateway to routing functionality in our app. By binding our parent component to the RouterProvider we ensure that all child components have easy access to the routing features and can play their part in the routing process
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 This code is a React-based application that uses react-router-dom for handling routing and navigation between different components. Here's a quick breakdown of the code:
 
