@@ -24,22 +24,7 @@ The RouterProvider is like the main hub of the React Router, where all the routi
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 This code is a React-based application that uses react-router-dom for handling routing and navigation between different components. Here's a quick breakdown of the code:
 
